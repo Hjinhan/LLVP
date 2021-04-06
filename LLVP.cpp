@@ -457,7 +457,7 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -465,7 +465,7 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -497,13 +497,13 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; //
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 15; p++)//59类循环判定
 										{
@@ -543,7 +543,7 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 };
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -551,7 +551,7 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -583,13 +583,13 @@ void LLVPC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
 										for (int p = 0; p <= 15; p++)//127类循环判定
 										{
@@ -811,7 +811,7 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -819,7 +819,7 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -851,13 +851,13 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
@@ -897,7 +897,7 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -905,7 +905,7 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -937,13 +937,13 @@ void LLVPC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
@@ -1164,7 +1164,7 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1172,7 +1172,7 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -1204,13 +1204,13 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 15; p++)//59类循环判定
 										{
@@ -1250,7 +1250,7 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1258,7 +1258,7 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -1290,13 +1290,13 @@ void LLVPA_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
 										for (int p = 0; p <= 15; p++)//127类循环判定
 										{
@@ -1518,7 +1518,7 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1526,7 +1526,7 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -1558,13 +1558,13 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
@@ -1604,7 +1604,7 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1612,7 +1612,7 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -1644,13 +1644,13 @@ void LLVPA_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-起
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
@@ -1894,7 +1894,7 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 };
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1902,7 +1902,7 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -1934,13 +1934,13 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 15; p++)//59类循环判定
 										{
@@ -1980,7 +1980,7 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[16] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -1988,7 +1988,7 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 15; p++)//127类循环判定
 								{
@@ -2020,15 +2020,15 @@ void LLVPAC_fun_next(int num, int num1, char pn, int c, int funtype)//num-起始
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[16] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[16] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
-										for (int p = 0; p <= 15; p++)//127类循环判定
+										for (int p = 0; p <= 15; p++)
 										{
 											if (ab == p)
 											{
@@ -2290,7 +2290,7 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -2298,7 +2298,7 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 							{
 								int ab = 0;
 
-								ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -2330,13 +2330,13 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img.at<uchar>(i - 1, j - 1);
 																			 //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
@@ -2376,7 +2376,7 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 				{
 					for (int n = 1; n < 49; n += 48 / piece)
 					{
-						double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+						double a[64] = { 0 }; 
 											  //int sum = 0;
 						for (int i = m; i < m + 48 / piece; i++)//进入小块
 						{
@@ -2384,7 +2384,7 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 							{
 								int ab = 0;
 
-								ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+								ab = img2.at<uchar>(i - 1, j - 1);
 
 								for (int p = 0; p <= 63; p++)//127类循环判定
 								{
@@ -2416,13 +2416,13 @@ void LLVPAC_funstr1_next(int num, int num1, char pn, int c, int funtype)//num-�
 						{
 							for (int n = 1; n < 49; n += 48 / piece)
 							{
-								double a[64] = { 0 }; //存储小样本块中每种LBP值的个数
+								double a[64] = { 0 }; 
 													  //int sum = 0;
 								for (int i = m; i < m + 48 / piece; i++)//进入小块
 								{
 									for (int j = n; j < n + 48 / piece; j++)
 									{
-										int ab = img2.at<uchar>(i - 1, j - 1);//将LBP值存到ab
+										int ab = img2.at<uchar>(i - 1, j - 1);
 																			  //cout <<ab<<" ";
 										for (int p = 0; p <= 63; p++)//127类循环判定
 										{
